@@ -20,16 +20,29 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 ### Contents
 
-* [Features](#overview-of-features)
-* [Quick installation](#quick-installation)
-* [Package manager installation](#package-managers)
-* [Web font usage](#web-font-usage)
-* [Additional tools for font customization](#additional-tools-for-hack-font-customization)
-* [Resources](#resources)
-* [Contributing](#contributing)
-* [Build tools](#built-with)
-* [Acknowledgments](#acknowledgments)
-* [License](#license)
+- [Hack](#hack)
+    - [A typeface designed for source code](#a-typeface-designed-for-source-code)
+    - [Contents](#contents)
+    - [Specimen](#specimen)
+  - [Overview of features](#overview-of-features)
+  - [Quick installation](#quick-installation)
+    - [Linux](#linux)
+    - [macOS](#macos)
+    - [Windows](#windows)
+    - [Chrome/ChromeOS](#chromechromeos)
+  - [Package managers](#package-managers)
+  - [Web font usage](#web-font-usage)
+      - [1. Add Hack to HTML](#1-add-hack-to-html)
+      - [2. Add Hack to CSS](#2-add-hack-to-css)
+  - [Additional tools for Hack font customization](#additional-tools-for-hack-font-customization)
+    - [Customize your build with alternate glyph styles](#customize-your-build-with-alternate-glyph-styles)
+    - [Line spacing adjustments](#line-spacing-adjustments)
+    - [Install modified and unmodified versions of Hack on the same system](#install-modified-and-unmodified-versions-of-hack-on-the-same-system)
+  - [Resources](#resources)
+  - [Contributing](#contributing)
+  - [Built With](#built-with)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 
 
 ### Specimen
@@ -76,6 +89,12 @@ Some Linux users may find that font rendering is improved on their distro with [
 3. Follow the instructions from your operating system.
 4. Enjoy!
 
+Or, if you use [Homebrew](https://brew.sh/) (see the section **Package managers** below):
+
+```
+$ brew tap homebrew/cask-fonts
+$ brew cask install font-hack
+```
 
 ### Windows
 
@@ -103,7 +122,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Debian**: `fonts-hack-ttf`
 - **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
-- **Homebrew Cask (OS X)**: `homebrew/cask-fonts/font-hack`
+- **Homebrew Cask (macOS)**: cask `font-hack` in tap `homebrew/cask-fonts`
 - **Open BSD**: `fonts/hack-fonts`
 - **OpenSUSE**: `hack-fonts`
 - **Ubuntu**: `fonts-hack-ttf`
